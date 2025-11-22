@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    font-family: var(--font-main);
+}
+:root {
+
+  /*COLOR*/
+  /**********###Primary*******/
+
+--Red: hsl(4, 100%, 67%)
+
+
+ /********### Neutral*********/
+  --Blue800: hsl(234, 29%, 20%);
+  --Blue700: hsl(235, 18%, 26%);
+  --Grey: hsl(0, 0%,58%);
+  --White: hsl(0, 0%, 100%);
+
+  /******** Typography********/
+
+  /*Font size*/
+  --font-main: "Roboto", sans-serif;
+ --font-size-base: 16px;}
+
+ /**** Mobile first ****/
