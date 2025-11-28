@@ -47,7 +47,6 @@ body {
   display: none;
 }
 .add {
-  border: 1px solid blue;
   display: block;
   display: flex;
   flex-direction: column;
@@ -137,11 +136,18 @@ form button {
   font-size: 20px;
   margin-top: 20px;
 }
+form span {
+  color: var(--Red);
+  margin-left: 49%;
+}
 .active {
   background-color: rgb(240, 189, 189);
 }
 .active::placeholder {
   color: var(--Red);
+}
+.valid-form span {
+  font-weight: bold;
 }
 @media (width>= 769px) {
   body {
@@ -216,5 +222,9 @@ form button {
 
     font-size: 20px;
     margin-top: 10px;
+  }
+  form span {
+    color: var(--Red);
+    margin-left: 57%;
   }
 }
